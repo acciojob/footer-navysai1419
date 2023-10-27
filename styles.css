@@ -1,67 +1,17 @@
-/* your code here */
-/* Reset some default styles */
-body {
-  margin: 0;
-  padding: 0;
+.link-boxes {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-/* Style the footer */
-footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-/* Style each section within the footer */
-.footer-section {
-  flex: 1;
-  margin: 10px;
-  text-align: center;
-}
-
-.footer-section h3 {
+.link-boxes h3 {
   font-size: 18px;
 }
 
-.footer-section a {
-  color: #fff;
+.link-boxes a {
+  color: #333;
   text-decoration: none;
   display: block;
   margin: 5px 0;
 }
-
-/* Style the media icons */
-.media-icons {
-  display: flex;
-  justify-content: center;
-}
-
-.icon {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-/* Define the icon styles for different social media platforms */
-.icon.facebook {
-  color: #3b5998;
-}
-
-.icon.twitter {
-  color: #1da1f2;
-}
-
-.icon.linkedin {
-  color: #0077b5;
-}
-
-.icon.instagram {
-  color: #bc2a8d;
-}
-
-.icon.youtube {
-  color: #ff0000;
-}
-
