@@ -12,7 +12,7 @@ body {
             justify-content: space-between;
         }
 
-        .footer-section {
+        .link-boxes {
             flex: 1;
             margin-bottom: 20px;
 			text-decoration: underline;
